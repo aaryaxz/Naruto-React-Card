@@ -43,6 +43,7 @@ function App() {
     <div className="parent w-full h-[100vh] items-center realtive justify-center flex flex-wrap gap-20">
         <div className='bg-rose-500 px-4 py-1 absolute top-4 right-10 flex gap-4 rounded-sm'>
             <h1 className='font-[Bebas] text-[1.2vw] tracking-wider'>Added</h1>
+            
             <p className='font-[Bebas] text-[1.2vw]'>{(val.filter(item=>item.added)).length}</p>
         </div>
         {val.map((elem,index)=>{
